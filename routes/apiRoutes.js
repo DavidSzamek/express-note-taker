@@ -5,14 +5,17 @@ const fs = require("fs");
 // Routing
 module.exports = function (app) {
     // GET Request
-    app.get("/api/notes/", function(req, res) {
-        res.json(note_data);
+    app.get("/api/notes/", function (req, res) {
+        res.json(db);
     });
 
-    // POST request
+    // POST Request
     app.post("/api/notes", function (req, res) {
         db.push(req.body);
+    });
+    
+    fs.writeFile("./db/db,json", JSON.stringify(db), function () {
+        res.json(db);
+    })
 
-        
-    })    
 }
