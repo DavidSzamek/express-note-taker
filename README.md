@@ -9,7 +9,7 @@ The primary job to build the back end, connect it to the front end, and then dep
 
 ## Live Deployment
 
-
+[Note Taker Application](https://pacific-sierra-32971.herokuapp.com/)
 
 ## User Story
 
@@ -40,3 +40,4 @@ To install the application locally, you must;
 
 ## GitHub
 
+You can follow my progress [here](https://github.com/DavidSzamek)
