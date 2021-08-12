@@ -24,13 +24,14 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 To install the application locally, you must;
 
-``` 
 
-    1. Ensure Node.js is installed on your machine. If Node.js is not installed, [click here](https://nodejs.org/en/) and follow the steps to install the application. 
-    2. Once cloned, use npm install within the terminal to install the required modules/packages. 
-    3. Run node server.js to start the server, and navigate to the url https://localhost:8080/.
+1. Ensure Node.js is installed on your machine. If Node.js is not installed, [click here](https://nodejs.org/en/) and follow the steps to install the application. 
 
-```
+2. Once cloned, use npm install within the terminal to install the required modules/packages. 
+
+3. Run node server.js to start the server, and navigate to the url https://localhost:8080/.
+
+
 
 
 ## Functionality
